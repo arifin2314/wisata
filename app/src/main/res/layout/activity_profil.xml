@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#BFDAEF"
+    android:padding="22dp"
+    tools:=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txJudul"
+            android:layout_marginBottom="20dp"
+            android:text="wisata"
+            android:textStyle="italic"
+            android:textSize="30dp"/>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/re3"
+            android:scaleType="fitXY"
+            android:id="@+id/gambarwisata"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txJenis"
+            android:layout_marginBottom="20dp"
+            android:text="bold"
+            android:textStyle="italic"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_wisata"
+            android:background="#093B51"
+            android:textStyle="italic"
+            android:text="wisata"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txAsal"
+            android:layout_marginBottom="20dp"
+            android:text="wisata"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txDeskripsi"
+            android:layout_marginBottom="20dp"
+            android:textStyle="normal"
+            android:text="wisata"
+            android:textSize="30dp"/>
+
+        </LinearLayout>
+
+
+</ScrollView>

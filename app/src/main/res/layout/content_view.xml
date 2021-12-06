@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#BFDAEF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/ipin"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="19dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#093B51"
+            android:text="UNIVERSITAS HAMZANWADI"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fakultas   :   Tehnik"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prodi         :  Tehnik Imformatika"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama       :   Muhammad arifin"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nim          :   200602051"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ti B"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="29dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
